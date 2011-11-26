@@ -8,10 +8,11 @@
  */
 
 namespace Domain;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @Entity
- * @Table(name="user")
+ * @Table(name="User")
  */
 class User {
 
@@ -33,6 +34,21 @@ class User {
 
     /** @Column(name="surname") */
     protected $surname;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Debt", mappedBy="creditor")
+     */
+    protected $credits;
+
+    /**
+     * @ORM\OneToMany(targetEntity="Debt", mappedBy="debitor")
+     */
+    protected $debits;
+
+    public function __construct() {
+        $this->credits = new ArrayCollection();
+        $this->debits = new ArrayCollection();
+    }
 
     public function getId()
     {
@@ -81,6 +97,26 @@ class User {
     public function getUsername()
     {
         return $this->username;
+    }
+
+    public function setCredits($credits)
+    {
+        $this->credits = $credits;
+    }
+
+    public function getCredits()
+    {
+        return $this->credits;
+    }
+
+    public function setDebits($debits)
+    {
+        $this->debits = $debits;
+    }
+
+    public function getDebits()
+    {
+        return $this->debits;
     }
 
 
