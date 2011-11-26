@@ -15,17 +15,73 @@ namespace Domain;
  */
 class User {
 
-    /** @Id @Column(type="integer") */
+    /**
+     * @Id
+     * @GeneratedValue
+     * @Column(type="integer")
+     */
     protected $id;
 
+    /** @Column(name="username") */
+    protected $username;
 
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
+    /** @Column(name="password") */
+    protected $password;
+
+    /** @Column(name="forename") */
+    protected $forename;
+
+    /** @Column(name="surname") */
+    protected $surname;
 
     public function getId()
     {
         return $this->id;
     }
+
+    public function setForename($forename)
+    {
+        $this->forename = $forename;
+        return $this;
+    }
+
+    public function getForename()
+    {
+        return $this->forename;
+    }
+
+    public function setPassword($password)
+    {
+        $this->password = $password;
+        return $this;
+    }
+
+    public function getPassword()
+    {
+        return $this->password;
+    }
+
+    public function setSurname($surname)
+    {
+        $this->surname = $surname;
+        return $this;
+    }
+
+    public function getSurname()
+    {
+        return $this->surname;
+    }
+
+    public function setUsername($username)
+    {
+        $this->username = $username;
+        return $this;
+    }
+
+    public function getUsername()
+    {
+        return $this->username;
+    }
+
+
 }

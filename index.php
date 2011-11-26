@@ -6,14 +6,16 @@
  * Time: 16:55
  * To change this template use File | Settings | File Templates.
  */
- 
+
 require_once __DIR__.'/silex.phar';
+
+use Symfony\Component\HttpFoundation\Response;
 
 $app = new Silex\Application();
 
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path'       => __DIR__.'/views',
-    'twig.class_path' => __DIR__.'/vendor/twig/lib',
+    'twig.class_path' => __DIR__.'/vendor/Twig/lib',
 ));
 
 $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
@@ -40,32 +42,31 @@ $app->register(new Nutwerk\Extension\DoctrineORMExtension(), array(
         'namespace' => 'Domain',
     )),
 ));
+$app['db.orm.em'];
+$app->register(new Silex\Provider\SessionServiceProvider());
 
-$app->get('/', function () use ($app) {
-
-
-        
-    return $app['twig']->render('hello.twig', array(
-        'name' => 'hhh',
-    ));
+$app->error(function (\Exception $e, $code) {
+    return new Response('We are sorry, but something went terribly wrong:', $e->getMessage());
 });
 
-$app->get('/hello/{name}', function ($name) use ($app) {
+$app['autoloader']->registerNamespace('Controller', __DIR__.'/app');
+$app->mount('/', new Controller\LoginController());
+
+$app->get('/',
+    function () use ($app) {
+
+        /** @var $user Domain\User */
+        if (null === $user = $app['session']->get('user')) {
+            return $app->redirect('/index.php/login');
+        }
 
 
-        /** @var $em Doctrine\ORM\EntityManager */
-        $app['db.orm.em'];
-        
-       $u = new Domain\User();
-        $u->setId(2);
-        $app['db.orm.em']->persist($u);
-        $app['db.orm.em']->flush();
-    return $app['twig']->render('hello.twig', array(
-        'name' => $name,
-    ));
+        return $app['twig']->render('hello.twig', array(
+            'name' => $user,
+        ));
 });
-
 
 
 
 $app->run();
+

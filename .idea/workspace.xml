@@ -2,521 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9358fe8-77a0-41e1-af9e-e7abd9c43e50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Domain/User.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/Annotation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/Annotation/IgnoreAnnotation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/AnnotationException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/AnnotationReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/AnnotationRegistry.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/CachedReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/DocLexer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/DocParser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/FileCacheReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/IndexedReader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/PhpParser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Annotations/Reader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Cache/AbstractCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Cache/ApcCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Cache/ArrayCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Cache/Cache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Cache/MemcacheCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Cache/XcacheCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Cache/ZendDataCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/ClassLoader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Collections/ArrayCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Collections/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/CommonException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/EventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/EventManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/EventSubscriber.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Lexer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/NotifyPropertyChanged.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Persistence/Mapping/ClassMetadata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Persistence/Mapping/ClassMetadataFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Persistence/ObjectManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Persistence/ObjectRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/PropertyChangedListener.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Util/Debug.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Util/Inflector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Common/Version.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/ConnectionException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/DBALException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/IBMDB2/DB2Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/IBMDB2/DB2Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/IBMDB2/DB2Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/IBMDB2/DB2Statement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/OCI8/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/OCI8/OCI8Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/OCI8/OCI8Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/OCI8/OCI8Statement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOConnection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOIbm/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOMySql/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOOracle/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOPgSql/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOSqlite/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOSqlsrv/Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOSqlsrv/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/PDOStatement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Driver/Statement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/DriverManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Event/ConnectionEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Event/Listeners/MysqlSessionInit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Event/Listeners/OracleSessionInit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Events.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/LockMode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Logging/DebugStack.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Logging/EchoSQLLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Logging/SQLLogger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/AbstractPlatform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/DB2Platform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/DB2Keywords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/KeywordList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/MsSQLKeywords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/MySQLKeywords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/OracleKeywords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/PostgreSQLKeywords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/ReservedKeywordsValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/Keywords/SQLiteKeywords.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/MsSqlPlatform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/MySqlPlatform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/OraclePlatform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/PostgreSqlPlatform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Platforms/SqlitePlatform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Portability/Connection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Portability/Statement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Query/Expression/CompositeExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Query/Expression/ExpressionBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Query/QueryBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Query/QueryException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/SQLParserUtils.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/AbstractAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/AbstractSchemaManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Column.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/ColumnDiff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Comparator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Constraint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/DB2SchemaManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/ForeignKeyConstraint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/MsSqlSchemaManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/MySqlSchemaManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/OracleSchemaManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/PostgreSqlSchemaManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Schema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/SchemaConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/SchemaDiff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/SchemaException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Sequence.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/SqliteSchemaManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Table.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/TableDiff.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/View.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Visitor/CreateSchemaSqlCollector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Visitor/DropSchemaSqlCollector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Visitor/Graphviz.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Schema/Visitor/Visitor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Statement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Tools/Console/Command/ImportCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Tools/Console/Command/ReservedWordsCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Tools/Console/Command/RunSqlCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Tools/Console/Helper/ConnectionHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/ArrayType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/BigIntType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/BooleanType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/ConversionException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/DateTimeType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/DateTimeTzType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/DateType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/DecimalType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/FloatType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/IntegerType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/ObjectType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/SmallIntType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/StringType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/TextType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/TimeType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/Type.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Types/VarDateTimeType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/DBAL/Version.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/AbstractQuery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/EntityManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/EntityNotFoundException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/EntityRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Event/LifecycleEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Event/LoadClassMetadataEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Event/OnClearEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Event/OnFlushEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Event/PreUpdateEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Events.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Id/AbstractIdGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Id/AssignedGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Id/IdentityGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Id/SequenceGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Id/TableGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/CommitOrderCalculator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/AbstractHydrator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/ArrayHydrator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/HydrationException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/IterableResult.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/ObjectHydrator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/ScalarHydrator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/SimpleObjectHydrator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Internal/Hydration/SingleScalarHydrator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/ClassMetadata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/ClassMetadataFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/ClassMetadataInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/AbstractFileDriver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/AnnotationDriver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/DatabaseDriver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/DoctrineAnnotations.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/Driver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/DriverChain.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/PHPDriver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/StaticPHPDriver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/XmlDriver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/Driver/YamlDriver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Mapping/MappingException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/NativeQuery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/NoResultException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/NonUniqueResultException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/ORMException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/OptimisticLockException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/PersistentCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/AbstractCollectionPersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/AbstractEntityInheritancePersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/BasicEntityPersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/ElementCollectionPersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/JoinedSubclassPersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/ManyToManyPersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/OneToManyPersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/SingleTablePersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Persisters/UnionSubclassPersister.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/PessimisticLockException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Proxy/Proxy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Proxy/ProxyException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Proxy/ProxyFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ASTException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/AggregateExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ArithmeticExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ArithmeticFactor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ArithmeticTerm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/BetweenExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/CoalesceExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/CollectionMemberExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ComparisonExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ConditionalExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ConditionalFactor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ConditionalPrimary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ConditionalTerm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/DeleteClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/DeleteStatement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/EmptyCollectionComparisonExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/ExistsExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/FromClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/AbsFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/ConcatFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/CurrentDateFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/CurrentTimeFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/CurrentTimestampFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/DateAddFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/DateDiffFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/DateSubFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/FunctionNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/LengthFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/LocateFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/LowerFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/ModFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/SizeFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/SqrtFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/SubstringFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/TrimFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Functions/UpperFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/GroupByClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/HavingClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/IdentificationVariableDeclaration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/InExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/IndexBy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/InputParameter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/InstanceOfExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Join.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/JoinAssociationPathExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/JoinVariableDeclaration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/LikeExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Literal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Node.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/NullComparisonExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/NullIfExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/OrderByClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/OrderByItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/PartialObjectExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/PathExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/QuantifiedExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/RangeVariableDeclaration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/SelectClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/SelectExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/SelectStatement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/SimpleArithmeticExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/SimpleSelectClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/SimpleSelectExpression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/Subselect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/SubselectFromClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/UpdateClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/UpdateItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/UpdateStatement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/AST/WhereClause.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Exec/AbstractSqlExecutor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Exec/MultiTableDeleteExecutor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Exec/MultiTableUpdateExecutor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Exec/SingleSelectExecutor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Exec/SingleTableDeleteUpdateExecutor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Andx.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Comparison.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Composite.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/From.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Func.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/GroupBy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Join.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Literal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Math.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/OrderBy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Orx.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Expr/Select.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Lexer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/ParameterTypeInferer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/ParserResult.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/Printer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/QueryException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/ResultSetMapping.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/ResultSetMappingBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/SqlWalker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/TreeWalker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/TreeWalkerAdapter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Query/TreeWalkerChain.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/QueryBuilder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/ClearCache/MetadataCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/ClearCache/QueryCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/ClearCache/ResultCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/ConvertDoctrine1SchemaCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/ConvertMappingCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/EnsureProductionSettingsCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/GenerateEntitiesCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/GenerateProxiesCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/GenerateRepositoriesCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/InfoCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/RunDqlCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/SchemaTool/AbstractCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/SchemaTool/CreateCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/SchemaTool/DropCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/SchemaTool/UpdateCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Command/ValidateSchemaCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/ConsoleRunner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/Helper/EntityManagerHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Console/MetadataFilter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/ConvertDoctrine1Schema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/DisconnectedClassMetadataFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/EntityGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/EntityRepositoryGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Event/GenerateSchemaEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Event/GenerateSchemaTableEventArgs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Export/ClassMetadataExporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Export/Driver/AbstractExporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Export/Driver/AnnotationExporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Export/Driver/PhpExporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Export/Driver/XmlExporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Export/Driver/YamlExporter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Export/ExportException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/SchemaTool.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/SchemaValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/Setup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/ToolEvents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Tools/ToolsException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/TransactionRequiredException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/UnitOfWork.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/ORM/Version.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Application.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Command/Command.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Command/HelpCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Command/ListCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Formatter/OutputFormatter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Formatter/OutputFormatterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Formatter/OutputFormatterStyle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Formatter/OutputFormatterStyleInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Helper/DialogHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Helper/FormatterHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Helper/Helper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Helper/HelperInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Helper/HelperSet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/ArgvInput.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/ArrayInput.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/Input.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/InputArgument.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/InputDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/InputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/InputOption.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Input/StringInput.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Output/ConsoleOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Output/NullOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Output/Output.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Output/OutputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Output/StreamOutput.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Shell.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Tester/ApplicationTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Console/Tester/CommandTester.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Dumper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Escaper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Exception/DumpException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Exception/ExceptionInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Exception/ParseException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Inline.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Unescaper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/Doctrine/Symfony/Component/Yaml/Yaml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/bin/doctrine" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/bin/doctrine.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine-orm/lib/doctrine-orm/bin/doctrine.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/LoginController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/register.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Autoloader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Compiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/CompilerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Environment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Loader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Runtime.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Syntax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExpressionParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Optimizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExtensionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/FilterInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/FunctionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Lexer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/LexerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Chain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Filesystem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/String.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/LoaderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Markup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/AutoEscape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/BlockReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Array.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/AssignName.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Add.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/And.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseAnd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseOr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseXor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Concat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Div.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Equal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/FloorDiv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Greater.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/GreaterEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/In.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Less.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/LessEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mod.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mul.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotEqual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotIn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Or.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Power.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Range.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Sub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/BlockReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Conditional.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Constant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/ExtensionReference.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/GetAttr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Name.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Parent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Neg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Not.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Pos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/For.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/If.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Macro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Module.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Print.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedModule.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedPrint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Set.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Spaceless.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Text.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeOutputInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeTraverser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Optimizer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitorInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicyInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TemplateInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Function.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Method.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TestInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/AutoEscape.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Block.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Extends.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/For.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/From.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/If.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Import.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Include.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Macro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Sandbox.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Set.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Spaceless.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Use.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBroker.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBrokerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenStream.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine2-dbal" afterPath="$PROJECT_DIR$/vendor/doctrine2-dbal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine2-orm" afterPath="$PROJECT_DIR$/vendor/doctrine2-orm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nutwerk-orm-extension" afterPath="$PROJECT_DIR$/vendor/nutwerk-orm-extension" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Domain/User.php" afterPath="$PROJECT_DIR$/app/Domain/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Autoloader.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Autoloader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Compiler.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Compiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/CompilerInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/CompilerInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Environment.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Environment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Loader.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Runtime.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Runtime.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Syntax.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Syntax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExpressionParser.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExpressionParser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Core.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Escaper.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Escaper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Optimizer.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Optimizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Sandbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExtensionInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExtensionInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Function.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Method.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Method.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/FilterInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/FilterInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Function.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Method.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Method.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/FunctionInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/FunctionInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Lexer.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Lexer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/LexerInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/LexerInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Array.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Array.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Chain.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Chain.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Filesystem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/String.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/String.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/LoaderInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/LoaderInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Markup.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Markup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/AutoEscape.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/AutoEscape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Block.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Block.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/BlockReference.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/BlockReference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Array.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Array.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/AssignName.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/AssignName.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Add.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/And.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/And.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseAnd.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseAnd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseOr.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseOr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseXor.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseXor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Concat.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Concat.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Div.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Div.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Equal.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Equal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/FloorDiv.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/FloorDiv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Greater.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Greater.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/GreaterEqual.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/GreaterEqual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/In.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/In.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Less.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Less.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/LessEqual.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/LessEqual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mod.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mod.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mul.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mul.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotEqual.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotEqual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotIn.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotIn.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Or.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Or.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Power.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Power.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Range.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Range.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Sub.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Sub.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/BlockReference.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/BlockReference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Conditional.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Conditional.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Constant.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Constant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/ExtensionReference.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/ExtensionReference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Filter.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Function.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/GetAttr.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/GetAttr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Name.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Name.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Parent.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Parent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Test.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Neg.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Neg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Not.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Not.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Pos.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Pos.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/For.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/For.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/If.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/If.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Import.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Import.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Include.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Include.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Macro.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Macro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Module.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Print.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Print.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Sandbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedModule.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedModule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedPrint.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedPrint.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Set.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Set.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Spaceless.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Spaceless.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Text.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Text.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeOutputInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeOutputInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeTraverser.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeTraverser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Escaper.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Escaper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Optimizer.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Optimizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Sandbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitorInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitorInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Parser.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ParserInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/ParserInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityError.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityError.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicy.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicyInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicyInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Template.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TemplateInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TemplateInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Function.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Method.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Method.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TestInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TestInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Token.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/Token.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/AutoEscape.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/AutoEscape.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Block.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Block.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Extends.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Extends.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Filter.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/For.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/For.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/From.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/From.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/If.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/If.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Import.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Import.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Include.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Include.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Macro.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Macro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Sandbox.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Sandbox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Set.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Set.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Spaceless.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Spaceless.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Use.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Use.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBroker.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBroker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBrokerInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBrokerInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserInterface.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenStream.php" afterPath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/hello.twig" afterPath="$PROJECT_DIR$/views/hello.twig" />
     </list>
     <ignored path="debt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -542,16 +163,43 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="21" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.0">
+            <state line="51" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctrineORMExtension.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/nutwerk-orm-extension/lib/Nutwerk/Extension/DoctrineORMExtension.php">
+      <file leaf-file-name="LoginController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Controller/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0375">
+            <state line="11" column="4" selection-start="191" selection-end="191" vertical-scroll-proportion="0.26190478">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/register.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="46" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/hello.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="44" selection-start="186" selection-end="186" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -560,7 +208,7 @@
       <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Domain/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="19" column="22" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -580,9 +228,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Domain/User.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/vendor/nutwerk-orm-extension/lib/Nutwerk/Extension/DoctrineORMExtension.php" />
+        <option value="$PROJECT_DIR$/views/reister.twig" />
+        <option value="$PROJECT_DIR$/views/login.twig" />
+        <option value="$PROJECT_DIR$/app/Domain/User.php" />
+        <option value="$PROJECT_DIR$/app/Controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/hello.twig" />
+        <option value="$PROJECT_DIR$/app/Controller/LoginController.php" />
       </list>
     </option>
   </component>
@@ -612,8 +265,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -642,20 +293,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -695,33 +389,34 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="d9358fe8-77a0-41e1-af9e-e7abd9c43e50" name="Default" comment="" />
       <created>1322244494296</created>
       <updated>1322244494296</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1280" height="776" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="-5" width="1280" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24939074" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25182778" sideWeight="0.6709062" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -770,28 +465,54 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vendor/nutwerk-orm-extension/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/nutwerk-orm-extension/lib/Nutwerk/Extension/DoctrineORMExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.1224489">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+        <state line="19" column="22" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="21" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.0">
+        <state line="51" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nutwerk-orm-extension/lib/Nutwerk/Extension/DoctrineORMExtension.php">
+    <entry file="file://$PROJECT_DIR$/views/hello.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0375">
+        <state line="12" column="44" selection-start="186" selection-end="186" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="191" selection-end="191" vertical-scroll-proportion="0.26190478">
           <folding />
         </state>
       </provider>
