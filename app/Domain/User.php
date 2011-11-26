@@ -36,12 +36,12 @@ class User {
     protected $surname;
 
     /**
-     * @ORM\OneToMany(targetEntity="Debt", mappedBy="creditor")
+     * @ORM\OneToMany(targetEntity="Debt", mappedBy="creditor",cascade={"ALL"}, indexBy="credits")
      */
     protected $credits;
 
     /**
-     * @ORM\OneToMany(targetEntity="Debt", mappedBy="debitor")
+     * @ORM\OneToMany(targetEntity="Debt", mappedBy="debitor",cascade={"ALL"}, indexBy="debits")
      */
     protected $debits;
 

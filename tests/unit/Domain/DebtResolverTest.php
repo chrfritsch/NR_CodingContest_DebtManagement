@@ -6,10 +6,10 @@
  * Time: 11:02
  * To change this template use File | Settings | File Templates.
  */
- require_once 'AbstractUntiTestCase.php';
+ require_once 'AbstractUnitTestCase.php';
 
 
-class DebtResolverTest extends AbstractUntiTestCase
+class DebtResolverTest extends AbstractUnitTestCase
 {
     public function testSimpleExample()
     {
@@ -19,6 +19,7 @@ class DebtResolverTest extends AbstractUntiTestCase
 
         $de = $this->getEntityManager()->getRepository('Domain\Debt')->find(1);
 
+        var_dump($a);
         var_dump($de);
 
         $resolver = new Domain\DebtResolver();

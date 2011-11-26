@@ -22,13 +22,15 @@ class Debt {
     protected $id;
 
     /**
-     * @ORM\ManyToOne(targetEntity="User", inversedBy="debits")
+     * @Id
+     * @ORM\ManyToOne(targetEntity="Domain\User", inversedBy="debits")
      * @ORM\JoinColumn(name="debitor_id", referencedColumnName="id")
      */
     protected $debitor;
 
     /**
-     * @ORM\ManyToOne(targetEntity="User", inversedBy="credits")
+     * @Id
+     * @ORM\ManyToOne(targetEntity="Domain\User", inversedBy="credits")
      * @ORM\JoinColumn(name="creditor_id", referencedColumnName="id")
      */
     protected $creditor;

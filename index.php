@@ -26,8 +26,8 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
         'user'     => 'd01287e8',
         'password' => 'KwWUJZDFGvbUpoeP',
     ),
-    'db.dbal.class_path'    => __DIR__.'/vendor/doctrine2-dbal/lib',
-    'db.common.class_path'  => __DIR__.'/vendor/doctrine2-common/lib',
+    'db.dbal.class_path'    => __DIR__.'/vendor/doctrine2-orm/lib/vendor/doctrine-dbal/lib',
+    'db.common.class_path'  => __DIR__.'/vendor/doctrine2-orm/lib/vendor/doctrine-common/lib',
 ));
 
 $app['autoloader']->registerNamespace('Nutwerk', __DIR__.'/vendor/nutwerk-orm-extension/lib');
@@ -51,6 +51,7 @@ $app->error(function (\Exception $e, $code) {
 
 $app['autoloader']->registerNamespace('Controller', __DIR__.'/app');
 $app->mount('/', new Controller\LoginController());
+$app->mount('/debt/', new Controller\DebtController());
 
 $app->get('/',
     function () use ($app) {

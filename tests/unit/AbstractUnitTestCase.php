@@ -12,7 +12,7 @@ require_once __DIR__.'/phpunit.inc.php';
 use DoctrineExtensions\PHPUnit\DataSet\QueryDataSet;
 
 
-abstract class AbstractUntiTestCase extends DoctrineExtensions\PHPUnit\OrmTestCase {
+abstract class AbstractUnitTestCase extends DoctrineExtensions\PHPUnit\OrmTestCase {
 
     protected $app;
 
@@ -31,8 +31,8 @@ abstract class AbstractUntiTestCase extends DoctrineExtensions\PHPUnit\OrmTestCa
                 'user'     => 'd01287e8',
                 'password' => 'KwWUJZDFGvbUpoeP',
             ),
-            'db.dbal.class_path'    => __DIR__.'/../../vendor/doctrine2-dbal/lib',
-            'db.common.class_path'  => __DIR__.'/../../vendor/doctrine2-common/lib',
+            'db.dbal.class_path'    => __DIR__.'/../../vendor/doctrine2-orm/lib/vendor/doctrine-dbal/lib',
+            'db.common.class_path'  => __DIR__.'/../../vendor/doctrine2-orm/lib/vendor/doctrine-common/lib',
         ));
 
         $this->app['autoloader']->registerNamespace('Nutwerk', __DIR__.'/../../vendor/nutwerk-orm-extension/lib');

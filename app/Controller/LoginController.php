@@ -59,7 +59,7 @@ class LoginController implements ControllerProviderInterface
                 $forename = $request->get('forename');
                 $surname = $request->get('surname');
 
-                $user = new Domain\User();
+                $user = new \Domain\User();
                 $user->setUsername($username)
                     ->setPassword(sha1($password))
                     ->setForename($forename)
