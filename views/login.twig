@@ -1,12 +1,27 @@
-<form action="/index.php/login" method="post">
 
-    <label for="username">User</label>
-    <input name="username" id="username">
+{% extends "/layout/loggedout.twig" %}
 
-    <label for="password">Passwort</label>
-    <input name="password" id="password" type="password">
+{% block title %}Index{% endblock %}
 
-    <input type="submit">
+{% block content %}
 
-    <a href="/index.php/register">Registrieren</a>
-</form>
+    <h2 class="title"><a href="#">Anmelden</a></h2>
+    <div style="clear: both;">&nbsp;</div>
+
+    <div class="entry">
+
+        <form action="/index.php/login" method="post">
+
+            <dt><label for="username">User</label></dt>
+            <dt><input name="username" id="username"></dt>
+
+            <dt><label for="password">Passwort</label></dt>
+            <dt><input name="password" id="password" type="password"></dt>
+
+            <input type="submit">
+
+        </form>
+    </div>
+{% endblock %}
+
+

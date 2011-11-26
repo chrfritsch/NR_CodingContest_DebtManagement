@@ -1,16 +1,28 @@
-<form action="/index.php/register" method="post">
+{% extends "/layout/loggedout.twig" %}
 
-    <label for="username">User</label>
-    <input name="username" id="username">
+{% block title %}Index{% endblock %}
 
-    <label for="password">Passwort</label>
-    <input name="password" id="password" type="password">
+{% block content %}
 
-    <label for="forename">Vorname</label>
-    <input name="forename" id="forename">
+    <h2 class="title"><a href="#">Registrieren</a></h2>
+    <div style="clear: both;">&nbsp;</div>
 
-    <label for="surname">Nachname</label>
-    <input name="surname" id="surname">
+        <div class="entry">
+        <form action="/index.php/register" method="post">
 
-    <input type="submit">
-</form>
+            <dt><label for="username">User</label></dt>
+            <dt><input name="username" id="username"></dt>
+
+            <dt><label for="password">Passwort</label></dt>
+            <dt><input name="password" id="password" type="password"></dt>
+
+            <dt><label for="forename">Vorname</label></dt>
+            <dt><input name="forename" id="forename"></dt>
+
+            <dt><label for="surname">Nachname</label></dt>
+            <dt><input name="surname" id="surname"></dt>
+
+            <input type="submit">
+        </form>
+    </div>
+{% endblock %}

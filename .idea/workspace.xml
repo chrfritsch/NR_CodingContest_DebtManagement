@@ -2,142 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9358fe8-77a0-41e1-af9e-e7abd9c43e50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/LoginController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/register.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Autoloader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Compiler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/CompilerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Environment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Loader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Runtime.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Error/Syntax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExpressionParser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Core.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Escaper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Optimizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Extension/Sandbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ExtensionInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Filter/Method.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/FilterInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Function/Method.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/FunctionInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Lexer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/LexerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Array.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Chain.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/Filesystem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Loader/String.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/LoaderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Markup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/AutoEscape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/BlockReference.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Array.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/AssignName.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Add.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/And.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseAnd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseOr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/BitwiseXor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Concat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Div.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Equal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/FloorDiv.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Greater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/GreaterEqual.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/In.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Less.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/LessEqual.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mod.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Mul.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotEqual.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/NotIn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Or.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Power.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Range.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Binary/Sub.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/BlockReference.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Conditional.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Constant.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/ExtensionReference.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Filter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/GetAttr.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Name.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Parent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Neg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Not.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Expression/Unary/Pos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/For.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/If.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Import.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Include.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Macro.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Module.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Print.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Sandbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedModule.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/SandboxedPrint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Set.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Spaceless.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Node/Text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeOutputInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeTraverser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Escaper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Optimizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/SafeAnalysis.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitor/Sandbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/NodeVisitorInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/ParserInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityError.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Sandbox/SecurityPolicyInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Template.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TemplateInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Function.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Test/Method.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TestInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/Token.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/AutoEscape.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Block.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Extends.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Filter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/For.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/From.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/If.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Import.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Include.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Macro.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Sandbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Set.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Spaceless.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParser/Use.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBroker.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserBrokerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenParserInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twig/lib/Twig/TokenStream.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout/loggedin.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout/loggedout.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine2-dbal" afterPath="$PROJECT_DIR$/vendor/doctrine2-dbal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine2-orm" afterPath="$PROJECT_DIR$/vendor/doctrine2-orm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nutwerk-orm-extension" afterPath="$PROJECT_DIR$/vendor/nutwerk-orm-extension" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Domain/User.php" afterPath="$PROJECT_DIR$/app/Domain/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/hello.twig" afterPath="$PROJECT_DIR$/views/hello.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/index.twig" afterPath="$PROJECT_DIR$/views/layout/index.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login.twig" afterPath="$PROJECT_DIR$/views/login.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/register.twig" afterPath="$PROJECT_DIR$/views/register.twig" />
     </list>
     <ignored path="debt.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,37 +35,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="index.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
+            <state line="46" column="12" selection-start="1304" selection-end="1337" vertical-scroll-proportion="-17.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Controller/LoginController.php">
+      <file leaf-file-name="loggedin.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout/loggedin.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="191" selection-end="191" vertical-scroll-proportion="0.26190478">
+            <state line="23" column="14" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/register.twig">
+      <file leaf-file-name="loggedout.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout/loggedout.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.0">
+            <state line="8" column="32" selection-start="188" selection-end="188" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/login.twig">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
+            <state line="303" column="31" selection-start="4086" selection-end="4086" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,16 +74,34 @@
       <file leaf-file-name="hello.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/hello.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="44" selection-start="186" selection-end="186" vertical-scroll-proportion="-7.5">
+            <state line="15" column="0" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Domain/User.php">
+      <file leaf-file-name="login.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="18" column="74" selection-start="527" selection-end="527" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/register.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="53" selection-start="395" selection-end="400" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.52284265">
               <folding />
             </state>
           </provider>
@@ -230,12 +123,19 @@
       <list>
         <option value="$PROJECT_DIR$/vendor/nutwerk-orm-extension/lib/Nutwerk/Extension/DoctrineORMExtension.php" />
         <option value="$PROJECT_DIR$/views/reister.twig" />
-        <option value="$PROJECT_DIR$/views/login.twig" />
         <option value="$PROJECT_DIR$/app/Domain/User.php" />
         <option value="$PROJECT_DIR$/app/Controllers/LoginController.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/views/hello.twig" />
         <option value="$PROJECT_DIR$/app/Controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/views/layout/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/views/layout/sidebar.twig" />
+        <option value="$PROJECT_DIR$/views/hello.twig" />
+        <option value="$PROJECT_DIR$/views/layout/loggedin.twig" />
+        <option value="$PROJECT_DIR$/views/layout/index.twig" />
+        <option value="$PROJECT_DIR$/views/layout/loggedout.twig" />
+        <option value="$PROJECT_DIR$/views/register.twig" />
+        <option value="$PROJECT_DIR$/views/login.twig" />
       </list>
     </option>
   </component>
@@ -293,7 +193,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="debt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,11 +266,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/layout" />
       <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <method>
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method>
         <option name="PhingTarget" enabled="false" />
       </method>
@@ -397,14 +321,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-5" width="1280" height="805" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25182778" sideWeight="0.6709062" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25182778" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -412,8 +338,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -444,7 +368,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configure Doctrine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove old twig" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -458,6 +382,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Configure Doctrine" />
+    <MESSAGE value="Remove old twig" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -475,44 +400,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/register.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="186" selection-end="186" vertical-scroll-proportion="-7.5">
+        <state line="19" column="22" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0952381">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="191" selection-end="191" vertical-scroll-proportion="0.26190478">
+        <state line="11" column="4" selection-start="191" selection-end="191" vertical-scroll-proportion="0.04761905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="303" column="31" selection-start="4086" selection-end="4086" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/hello.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="12" selection-start="1304" selection-end="1337" vertical-scroll-proportion="-17.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/loggedin.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="14" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout/loggedout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="188" selection-end="188" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="53" selection-start="395" selection-end="400" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="74" selection-start="527" selection-end="527" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="65" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.52284265">
           <folding />
         </state>
       </provider>
