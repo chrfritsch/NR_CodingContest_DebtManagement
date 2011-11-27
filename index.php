@@ -8,6 +8,7 @@
  */
 
 require_once __DIR__.'/silex.phar';
+require_once __DIR__.'/config/config.inc.php';
 
 use Symfony\Component\HttpFoundation\Response;
 
@@ -21,10 +22,10 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     'db.options' => array(
         'driver'   => 'pdo_mysql',
-        'host'     => 'c-fritsch.de',
-        'dbname'   => 'd01287e8',
-        'user'     => 'd01287e8',
-        'password' => 'KwWUJZDFGvbUpoeP',
+        'host'     => $config['production']['db']['host'],
+        'dbname'   => $config['production']['db']['dbname'],
+        'user'     => $config['production']['db']['user'],
+        'password' => $config['production']['db']['password'],
     ),
     'db.dbal.class_path'    => __DIR__.'/vendor/doctrine2-orm/lib/vendor/doctrine-dbal/lib',
     'db.common.class_path'  => __DIR__.'/vendor/doctrine2-orm/lib/vendor/doctrine-common/lib',
@@ -42,14 +43,11 @@ $app->register(new Nutwerk\Extension\DoctrineORMExtension(), array(
         'namespace' => 'Domain',
     )),
 ));
-$app['db.orm.em'];
 $app->register(new Silex\Provider\SessionServiceProvider());
 
-$app->error(function (\Exception $e, $code) {
-    return new Response('We are sorry, but something went terribly wrong:', $e->getMessage());
-});
-
 $app['autoloader']->registerNamespace('Controller', __DIR__.'/app');
+$app['autoloader']->registerNamespace('Domain', __DIR__.'/app');
+
 $app->mount('/', new Controller\LoginController());
 $app->mount('/debt/', new Controller\DebtController());
 
@@ -61,13 +59,10 @@ $app->get('/',
             return $app->redirect('/index.php/login');
         }
 
-
         return $app['twig']->render('hello.twig', array(
             'name' => $user,
         ));
 });
-
-
 
 $app->run();
 

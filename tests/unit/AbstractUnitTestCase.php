@@ -9,6 +9,8 @@
 
 require_once __DIR__.'/phpunit.inc.php';
 
+
+
 use DoctrineExtensions\PHPUnit\DataSet\QueryDataSet;
 
 
@@ -18,6 +20,8 @@ abstract class AbstractUnitTestCase extends DoctrineExtensions\PHPUnit\OrmTestCa
 
     public function __construct() {
 
+        include __DIR__.'/../../config/config.inc.php';
+
         parent::__construct();
 
         $this->app = new Silex\Application();
@@ -26,10 +30,10 @@ abstract class AbstractUnitTestCase extends DoctrineExtensions\PHPUnit\OrmTestCa
         $this->app->register(new Silex\Provider\DoctrineServiceProvider(), array(
             'db.options' => array(
                 'driver'   => 'pdo_mysql',
-                'host'     => 'c-fritsch.de',
-                'dbname'   => 'd01287e8',
-                'user'     => 'd01287e8',
-                'password' => 'KwWUJZDFGvbUpoeP',
+                'host'     => $config['unittest']['db']['host'],
+                'dbname'   => $config['unittest']['db']['dbname'],
+                'user'     => $config['unittest']['db']['user'],
+                'password' => $config['unittest']['db']['password'],
             ),
             'db.dbal.class_path'    => __DIR__.'/../../vendor/doctrine2-orm/lib/vendor/doctrine-dbal/lib',
             'db.common.class_path'  => __DIR__.'/../../vendor/doctrine2-orm/lib/vendor/doctrine-common/lib',
@@ -50,14 +54,19 @@ abstract class AbstractUnitTestCase extends DoctrineExtensions\PHPUnit\OrmTestCa
 
         $this->app['autoloader']->registerNamespace('DoctrineExtensions', __DIR__.'/../../vendor/DoctrineExtensions/lib');
 
-
     }
 
+    /**
+     * @return \Doctrine\ORM\EntityManager
+     */
     protected function createEntityManager()
     {
         return $this->app['db.orm.em'];
     }
 
+    /**
+     * @return DoctrineExtensions\PHPUnit\DataSet\QueryDataSet|PHPUnit_Extensions_Database_DataSet_FlatXmlDataSet
+     */
     protected function getDataSet()
     {
         $filename = dirname(__FILE__) . '/../_fixtures/'. get_class($this). '/' .

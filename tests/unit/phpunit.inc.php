@@ -9,7 +9,6 @@
  
 require_once __DIR__.'/../../silex.phar';
 
-
 use Symfony\Component\ClassLoader\UniversalClassLoader;
 
 $loader = new UniversalClassLoader();
