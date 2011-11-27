@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-    <User id="1" username='a'/>
-    <User id="2" username='b'/>
-    <User id="3" username='c'/>
-
-    <Debt id="1" debitor_id="1" creditor_id="2" value="3"/>
-    <Debt id="2" debitor_id="2" creditor_id="3" value="2"/>
-</dataset>

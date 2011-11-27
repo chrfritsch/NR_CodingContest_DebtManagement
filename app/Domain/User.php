@@ -12,7 +12,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @Entity
- * @Table(name="User")
+ * @ORM\Table(name="User")
  */
 class User {
 
@@ -23,25 +23,39 @@ class User {
      */
     protected $id;
 
-    /** @Column(name="username") */
+    /**
+     * @Column(name="username")
+     * @var string
+     */
     protected $username;
 
-    /** @Column(name="password") */
+    /**
+     * @Column(name="password")
+     * @var string
+     */
     protected $password;
 
-    /** @Column(name="forename") */
+    /**
+     * @Column(name="forename")
+     * @var string
+     */
     protected $forename;
 
-    /** @Column(name="surname") */
+    /**
+     * @Column(name="surname")
+     * @var string
+     */
     protected $surname;
 
     /**
-     * @ORM\OneToMany(targetEntity="Debt", mappedBy="creditor",cascade={"ALL"}, indexBy="credits")
+     * @OneToMany(targetEntity="Debt", mappedBy="creditor")
+     * @var ArrayCollection
      */
     protected $credits;
 
     /**
-     * @ORM\OneToMany(targetEntity="Debt", mappedBy="debitor",cascade={"ALL"}, indexBy="debits")
+     * @OneToMany(targetEntity="Debt", mappedBy="debitor")
+     * @var ArrayCollection
      */
     protected $debits;
 
@@ -50,74 +64,120 @@ class User {
         $this->debits = new ArrayCollection();
     }
 
+    /**
+     * @return int
+     */
     public function getId()
     {
         return $this->id;
     }
 
+    /**
+     * @param string $forename
+     * @return User
+     */
     public function setForename($forename)
     {
         $this->forename = $forename;
         return $this;
     }
 
+    /**
+     * @return string
+     */
     public function getForename()
     {
         return $this->forename;
     }
 
+    /**
+     * @param string $password
+     * @return User
+     */
     public function setPassword($password)
     {
         $this->password = $password;
         return $this;
     }
 
+    /**
+     * @return string
+     */
     public function getPassword()
     {
         return $this->password;
     }
 
+    /**
+     * @param string $surname
+     * @return User
+     */
     public function setSurname($surname)
     {
         $this->surname = $surname;
         return $this;
     }
 
+    /**
+     * @return string
+     */
     public function getSurname()
     {
         return $this->surname;
     }
 
+    /**
+     * @param string $username
+     * @return User
+     */
     public function setUsername($username)
     {
         $this->username = $username;
         return $this;
     }
 
+    /**
+     * @return string
+     */
     public function getUsername()
     {
         return $this->username;
     }
 
-    public function setCredits($credits)
-    {
-        $this->credits = $credits;
-    }
-
+    /**
+     * @return \Doctrine\Common\Collections\ArrayCollection|ArrayCollection
+     */
     public function getCredits()
     {
         return $this->credits;
     }
 
-    public function setDebits($debits)
-    {
-        $this->debits = $debits;
-    }
-
+    /**
+     * @return \Doctrine\Common\Collections\ArrayCollection
+     */
     public function getDebits()
     {
         return $this->debits;
     }
 
+    /**
+     * @param Debt $debt
+     * @return User
+     */
+    public function addCredit(Debt $debt) {
+        $debt->setCreditor($this);
+        $this->credits->add($debt);
+        return $this;
+    }
+
+    /**
+     * @param Debt $debt
+     * @return User
+     */
+    public function addDebit(Debt $debt) {
+        $debt->setDebitor($this);
+        $this->debits->add($debt);
+        return $this;
+    }
 
 }

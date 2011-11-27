@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9358fe8-77a0-41e1-af9e-e7abd9c43e50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/DebtController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/debt/index.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine2-common" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/doctrine2-dbal" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/unit/AbstractUntiTestCase.php" afterPath="$PROJECT_DIR$/tests/unit/AbstractUnitTestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testResolveConnectionCreditEqualsDebit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testResolveConnectionCreditGreaterDebit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/debt/create.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testSimpleExample.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine2-orm" afterPath="$PROJECT_DIR$/vendor/doctrine2-orm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/nutwerk-orm-extension" afterPath="$PROJECT_DIR$/vendor/nutwerk-orm-extension" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/LoginController.php" afterPath="$PROJECT_DIR$/app/Controller/LoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/DebtController.php" afterPath="$PROJECT_DIR$/app/Controller/DebtController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Domain/Debt.php" afterPath="$PROJECT_DIR$/app/Domain/Debt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Domain/DebtResolver.php" afterPath="$PROJECT_DIR$/app/Domain/DebtResolver.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Domain/User.php" afterPath="$PROJECT_DIR$/app/Domain/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/AbstractUnitTestCase.php" afterPath="$PROJECT_DIR$/tests/unit/AbstractUnitTestCase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/unit/Domain/DebtResolverTest.php" afterPath="$PROJECT_DIR$/tests/unit/Domain/DebtResolverTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/debt/index.twig" afterPath="$PROJECT_DIR$/views/debt/index.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout/loggedin.twig" afterPath="$PROJECT_DIR$/views/layout/loggedin.twig" />
     </list>
     <ignored path="debt.iws" />
@@ -39,37 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Debt.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Debt.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Domain/Debt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="10" selection-start="548" selection-end="548" vertical-scroll-proportion="0.33333334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="57" selection-start="2027" selection-end="2063" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DebtController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/DebtController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="57" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/debt/index.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+            <state line="168" column="18" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,7 +53,61 @@
       <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Domain/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="96" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+            <state line="44" column="7" selection-start="686" selection-end="709" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebtController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/DebtController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="43" selection-start="3723" selection-end="3723" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="16" selection-start="1284" selection-end="1311" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/debt/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="93" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.35775128">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="390" column="30" selection-start="5162" selection-end="5162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebtResolver.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Domain/DebtResolver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="546" selection-end="916" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebtResolverTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/unit/Domain/DebtResolverTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="41" selection-start="2158" selection-end="2158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,22 +127,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tests/unit/phpunit.inc.php" />
-        <option value="$PROJECT_DIR$/vendor/DoctrineExtensions/lib/DoctrineExtensions/PHPUnit/TestConnection.php" />
-        <option value="$PROJECT_DIR$/vendor/DoctrineExtensions/lib/DoctrineExtensions/PHPUnit/DoctrineMetadata.php" />
-        <option value="$PROJECT_DIR$/app/Domain/DebtResolver.php" />
-        <option value="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testSimpleExample.xml" />
-        <option value="$PROJECT_DIR$/tests/unit/AbstractUntiTestCase.php" />
-        <option value="$PROJECT_DIR$/vendor/doctrine2-orm/bin/doctrine.php" />
-        <option value="$PROJECT_DIR$/tests/unit/AbstractUnitTestCase.php" />
-        <option value="$PROJECT_DIR$/tests/unit/Domain/DebtResolverTest.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Debt.php" />
-        <option value="$PROJECT_DIR$/app/Domain/User.php" />
-        <option value="$PROJECT_DIR$/app/Controller/LoginController.php" />
-        <option value="$PROJECT_DIR$/views/layout/loggedin.twig" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/views/debt/index.twig" />
+        <option value="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testSimpleExample.xml" />
+        <option value="$PROJECT_DIR$/tests/unit/AbstractUnitTestCase.php" />
+        <option value="$PROJECT_DIR$/vendor/doctrine2-orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php" />
+        <option value="$PROJECT_DIR$/vendor/doctrine2-orm/lib/vendor/doctrine-dbal/lib/Doctrine/DBAL/Statement.php" />
+        <option value="$PROJECT_DIR$/tests/unit/Domain/DebtResolverTest.php" />
+        <option value="$PROJECT_DIR$/app/Domain/User.php" />
+        <option value="$PROJECT_DIR$/views/layout/loggedin.twig" />
+        <option value="$PROJECT_DIR$/views/debt/create.twig" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testResolveConnectionCreditEqualsDebit.xml" />
+        <option value="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testResolveConnectionCreditGreaterDebit.xml" />
+        <option value="$PROJECT_DIR$/app/Domain/DebtResolver.php" />
         <option value="$PROJECT_DIR$/app/Controller/DebtController.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Debt.php" />
+        <option value="$PROJECT_DIR$/views/debt/index.twig" />
       </list>
     </option>
   </component>
@@ -143,8 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,127 +190,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Doctrine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="debt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/_fixtures/DebtResolverTest" />
       <recent name="$PROJECT_DIR$/tests/unit/Domain" />
       <recent name="$PROJECT_DIR$/views/layout" />
       <recent name="$PROJECT_DIR$/views" />
@@ -312,6 +234,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value="ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -339,16 +264,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-5" width="1280" height="805" extended-state="6" />
+    <frame x="-1" y="-5" width="1282" height="806" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25670186" sideWeight="0.506079" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25670186" sideWeight="0.67021275" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2591389" sideWeight="0.48176292" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -409,104 +334,106 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Domain/DebtResolver.php">
+    <entry file="file://$PROJECT_DIR$/tests/unit/AbstractUnitTestCase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="28" selection-start="944" selection-end="944" vertical-scroll-proportion="0.5834684" />
+        <state line="76" column="5" selection-start="2605" selection-end="2605" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine2-orm/bin/doctrine">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine2-orm/lib/Doctrine/ORM/EntityManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="332" column="16" selection-start="9353" selection-end="9353" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine2-orm/bin/doctrine.bat">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine2-orm/lib/Doctrine/ORM/Persisters/BasicEntityPersister.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="470" column="0" selection-start="17746" selection-end="17746" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/doctrine2-orm/bin/doctrine.php">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine2-orm/lib/vendor/doctrine-dbal/lib/Doctrine/DBAL/Statement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.83469725" />
+        <state line="125" column="70" selection-start="4501" selection-end="4501" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/nutwerk-orm-extension/lib/Nutwerk/Extension/DoctrineORMExtension.php">
+    <entry file="file://$PROJECT_DIR$/views/layout/loggedin.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="16" selection-start="2422" selection-end="2422" vertical-scroll-proportion="0.0">
+        <state line="17" column="51" selection-start="486" selection-end="486" vertical-scroll-proportion="0.43441227">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/Domain/DebtResolverTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/AbstractUnitTestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="285" selection-end="285" vertical-scroll-proportion="0.025083613">
+        <state line="59" column="41" selection-start="2158" selection-end="2158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout/loggedin.twig">
+    <entry file="file://$PROJECT_DIR$/views/debt/create.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="437" selection-end="437" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1151" vertical-scroll-proportion="-0.0">
+        <state line="32" column="132" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.8026756">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="914" selection-end="1013" vertical-scroll-proportion="0.6666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/debt/index.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="57" selection-start="2027" selection-end="2063" vertical-scroll-proportion="0.0">
+        <state line="43" column="16" selection-start="1284" selection-end="1311" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="96" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
+        <state line="44" column="7" selection-start="686" selection-end="709" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/DebtController.php">
+    <entry file="file://$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testResolveConnectionCreditEqualsDebit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="57" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+        <state line="6" column="67" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_fixtures/DebtResolverTest/testResolveConnectionCreditGreaterDebit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="67" selection-start="404" selection-end="404" vertical-scroll-proportion="0.17184943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/DebtResolver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="546" selection-end="916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="390" column="30" selection-start="5162" selection-end="5162" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Debt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="548" selection-end="548" vertical-scroll-proportion="0.33333334">
+        <state line="168" column="18" selection-start="3004" selection-end="3004" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/DebtController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="43" selection-start="3723" selection-end="3723" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/debt/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="93" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.35775128">
           <folding />
         </state>
       </provider>

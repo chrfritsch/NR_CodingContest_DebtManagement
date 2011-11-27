@@ -11,23 +11,64 @@
 
 class DebtResolverTest extends AbstractUnitTestCase
 {
-    public function testSimpleExample()
+    public function testResolveConnectionCreditGreaterDebit()
     {
+        /** @var $a \Domain\User */
         $a = $this->getEntityManager()->getRepository('Domain\User')->find(1);
         $b = $this->getEntityManager()->getRepository('Domain\User')->find(2);
         $c = $this->getEntityManager()->getRepository('Domain\User')->find(3);
 
-        $de = $this->getEntityManager()->getRepository('Domain\Debt')->find(1);
-
-        var_dump($a);
-        var_dump($de);
+        $this->assertEquals(1, count($a->getDebits()));
 
         $resolver = new Domain\DebtResolver();
         $resolver->resolve($b, $this->getEntityManager());
 
-        foreach($a->getDebits() as $debit) {
+        $this->assertEquals(2, count($a->getDebits()));
+
+        $debit1 = $a->getDebits()->get(0);
+        $debit2 = $a->getDebits()->get(1);
+
+        $this->assertEquals('b', $debit1->getCreditor()->getUsername());
+        $this->assertEquals(1, $debit1->getValue());
+        $this->assertEquals('c', $debit2->getCreditor()->getUsername());
+        $this->assertEquals(2, $debit2->getValue());
+
+        $this->assertEquals(0, count($b->getDebits()));
+        $this->assertEquals(0, count($c->getDebits()));
+
+        $this->assertEquals(1, count($b->getCredits()));
+        $this->assertEquals(1, count($c->getCredits()));
+
+    }
+
+    public function testResolveConnectionCreditEqualsDebit()
+    {
+        /** @var $a \Domain\User */
+        $a = $this->getEntityManager()->getRepository('Domain\User')->find(1);
+        $b = $this->getEntityManager()->getRepository('Domain\User')->find(2);
+        $c = $this->getEntityManager()->getRepository('Domain\User')->find(3);
+
+        $this->assertEquals(1, count($a->getDebits()));
+        $this->assertEquals(1, count($b->getDebits()));
+        $this->assertEquals(1, count($b->getCredits()));
+        $this->assertEquals(1, count($c->getCredits()));
+
+        $resolver = new Domain\DebtResolver();
+        $resolver->resolve($b, $this->getEntityManager());
+
+        foreach($a->getDebits() as $debit){
             var_dump($debit->getValue());
         }
 
+        $this->assertEquals(0, count($a->getDebits()));
+        $this->assertEquals(0, count($b->getDebits()));
+        $this->assertEquals(0, count($c->getDebits()));
+
+        $this->assertEquals(0, count($a->getCredits()));
+        $this->assertEquals(0, count($b->getCredits()));
+        $this->assertEquals(0, count($c->getCredits()));
+
     }
+
+
 }

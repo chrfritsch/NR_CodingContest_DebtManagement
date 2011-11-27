@@ -7,8 +7,66 @@
     <h2 class="title"><a href="#">Übersicht</a></h2>
     <div style="clear: both;">&nbsp;</div>
     <div class="entry">
-        <p>This is <strong>Indicator</strong>, a free, fully standards-compliant CSS template designed by FreeCssTemplates<a href="http://www.nodethirtythree.com/"></a> for <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.  The photo used in this template is from PDPhoto.org. This free template is released under a <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attributions 2.5</a> license, so you’re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :)</p>
-        <p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum ipsum. Proin imperdiet est. Phasellus dapibus semper urna. Pellentesque ornare, orci in felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.</p>
+        <h3>Forderungen</h3>
+
+        <form action="/index.php/debt/status" method="post">
+        <table class="debt">
+            <thead>
+                <td>Schuldner</td>
+                <td>Gläubiger</td>
+                <td>Wert</td>
+                <td>Akzeptieren</td>
+                <td>Löschen</td>
+            </thead>
+            {% for credit in user.credits %}
+                <tr class="{% if credit.isActive %}active {% else %} inactive {% endif %}">
+                    <td>{{ credit.debitor.username }}</td>
+                    <td>{{ credit.creditor.username }}</td>
+                    <td>{{ credit.value}}</td>
+                    <td>
+                        {% if not credit.isActive and credit.activeStatus != user.id %}
+                            <input type="checkbox" name="debt[{{user.id}}]" value="{{credit.id}}">
+                        {% endif%}
+                    </td>
+                    <td>
+                        {% if credit.isActive and credit.deleteStatus != user.id %}
+                            <input type="checkbox" name="delete[{{user.id}}]" value="{{credit.id}}">
+                        {% endif%}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h3>Verbindlichkeiten</h3>
+        <table class="debt">
+            <thead>
+                <td>Schuldner</td>
+                <td>Gläubiger</td>
+                <td>Wert</td>
+                <td>Akzeptieren</td>
+                <td>Löschen</td>
+            </thead>
+            {% for debit in user.debits %}
+                <tr class="{% if debit.isActive %}active {% else %} inactive {% endif %}">
+                    <td>{{ debit.debitor.username }}</td>
+                    <td>{{ debit.creditor.username }}</td>
+                    <td>{{ debit.value }}</td>
+
+                    <td>
+                        {% if not debit.isActive and debit.activeStatus != user.id %}
+                            <input type="checkbox" name="activate[{{user.id}}]" value="{{debit.id}}">
+                        {% endif%}
+                    </td>
+                    <td>
+                        {% if debit.isActive and debit.deleteStatus != user.id %}
+                            <input type="checkbox" name="delete[{{user.id}}]" value="{{debit.id}}">
+                        {% endif%}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+            <input type="submit">
+        </form>
     </div>
 
 {% endblock %}

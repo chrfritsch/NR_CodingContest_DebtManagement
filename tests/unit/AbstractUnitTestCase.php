@@ -73,7 +73,7 @@ abstract class AbstractUnitTestCase extends DoctrineExtensions\PHPUnit\OrmTestCa
     public function tearDown()
     {
         parent::tearDown();
-        $this->getDoctrineConnection()->executeQuery('TRUNCATE User');
-        $this->getDoctrineConnection()->executeQuery('TRUNCATE Debt');
+   #     $this->getDoctrineConnection()->executeQuery('TRUNCATE Debt');
+    #    $this->getDoctrineConnection()->executeQuery('TRUNCATE User');
     }
 }

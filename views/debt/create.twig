@@ -1,0 +1,39 @@
+{% extends "/layout/loggedin.twig" %}
+
+{% block title %}Schulden eintragen{% endblock %}
+
+{% block content %}
+
+    <h2 class="title"><a href="#">Schulden eintragen</a></h2>
+    <div style="clear: both;">&nbsp;</div>
+    <div class="entry">
+
+        <form action="/index.php/debt/create" method="post">
+            Ich <input type="hidden" name="debitor" value="{{ currentUser.id }}"> habe <input type="text" name="value"> € Schulden bei
+            <select name="creditor">
+                {% for user in users %}
+
+                    {% if user.id != currentUser.id %}
+                        <option value="{{ user.id }}">{{ user.username }}</option>
+                    {% endif %}
+                {% endfor %}
+            </select>
+            <input type="submit">
+        </form>
+
+        <form action="/index.php/debt/create" method="post">
+            <select name="debitor">
+                {% for user in users %}
+
+                    {% if user.id != currentUser.id %}
+                        <option value="{{ user.id }}">{{ user.username }}</option>
+                    {% endif %}
+                {% endfor %}
+            </select>
+            hat <input type="text" name="value"> € Schulden bei mir <input type="hidden" name="creditor" value="{{ currentUser.id }}">
+            <input type="submit">
+        </form>
+
+    </div>
+
+{% endblock %}

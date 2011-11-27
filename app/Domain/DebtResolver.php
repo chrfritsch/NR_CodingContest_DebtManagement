@@ -10,30 +10,39 @@ namespace Domain;
 
 class DebtResolver {
 
+    /**
+     * @param User $user
+     * @param $em
+     * @return void
+     */
     public function resolve(User $user, $em) {
 
         foreach ($user->getCredits() as $credit) {
             foreach($user->getDebits() as $debit) {
-                if ($credit->getValue() == $debit->getValue()) {
-                    $em->remove($debit);
-                    var_dump('Delete:'. $debit->getValue());
-                    var_dump('Delete:'. $credit->getValue());
+                if ($credit->isActive() && $debit->isActive() && ($credit->getValue() == $debit->getValue())) {
 
+                    $debit->getCreditor()->getCredits()->removeElement($debit);
+                    $credit->getDebitor()->getDebits()->removeElement($credit);
+                    $user->getCredits()->removeElement($credit);
+                    $user->getDebits()->removeElement($debit);
+                    $em->remove($debit);
                     $em->remove($credit);
 
                     break;
 
-                } elseif ($credit->getValue() > $debit->getValue()) {
+                } elseif ($credit->isActive() && $debit->isActive() && ($credit->getValue() > $debit->getValue())) {
+                    
                     $credit->setValue($credit->getValue() - $debit->getValue());
+
+                    $deb = new Debt($debit->getValue());
+                    $credit->getDebitor()->addDebit($deb);
+                    $debit->getCreditor()->addCredit($deb);
+                    $deb->setActive($credit->getDebitor());
+                    $deb->setActive($debit->getCreditor());
+                    $em->persist($deb);
+
+                    $user->getDebits()->removeElement($debit);
                     $em->remove($debit);
-
-                    var_dump($credit->getDebitor()->getUsername());
-var_dump($debit->getCreditor()->getUsername());
-                    $deb = new Debt($credit->getDebitor(), $debit->getCreditor(), $debit->getValue() - $credit->getValue());
-                    $credit->getDebitor()->getDebits()->add($deb);
-                    $debit->getCreditor()->getCredits()->add($deb);
-
-
                     break;
                 }
             }
@@ -41,5 +50,4 @@ var_dump($debit->getCreditor()->getUsername());
         }
 
     }
-
 }

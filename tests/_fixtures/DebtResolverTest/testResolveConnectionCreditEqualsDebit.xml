@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <User id="1" username='a' password='abc' forename='A' surname='A'/>
+    <User id="2" username='b' password='abc' forename='B' surname='B'/>
+    <User id="3" username='c' password='abc' forename='C' surname='C'/>
+
+    <Debt id="1" debitor_id="1" creditor_id="2" value="2" active="3"/>
+    <Debt id="2" debitor_id="2" creditor_id="3" value="2" active="5"/>
+</dataset>
